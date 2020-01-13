@@ -1,0 +1,40 @@
+.openModal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+    background: rgb(0, 0, 0, .5);
+}
+
+.openModal-content {
+    max-width: 500px;
+    padding: 20px 0;
+    background: #FFF;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.openModal .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.openModal-body {
+    padding: 0 15px;
+}
+
+.openModal .close:hover {
+	-webkit-transition: 0.4s Ease;
+	-moz-transition: 0.4s Ease;
+	-o-transition: 0.4s Ease;
+	transition: 0.4s Ease;
+    transform: rotate(-360deg);
+    color: #005cbf;
+}
